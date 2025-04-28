@@ -1,4 +1,65 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Isaaq Simon
+* Created on: April 2025
 * This file contains the CSS for index.html
 */
+/* Style the entire page */
+body {
+    background-color: #f0f8ff;
+    /* Light blue background */
+    font-family: Arial, sans-serif;
+    /* Set font */
+    text-align: center;
+    /* Center align text */
+    margin-top: 50px;
+    /* Add top margin */
+}
+
+/* Style the container that holds everything */
+.container {
+    background-color: #fff;
+    /* White background */
+    padding: 30px;
+    /* Space inside container */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Light shadow */
+    display: inline-block;
+    /* Shrink container to fit content */
+}
+
+/* Style the number input */
+input[type="number"] {
+    padding: 10px;
+    width: 50px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* Cursor changes to pointer on hover */
+    background-color: #4caf50;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+}
+
+/* Change button color when hovering */
+button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+/* Style for the result message */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
